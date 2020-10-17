@@ -27,6 +27,7 @@ public class PlayerJump : MonoBehaviour
         if(collision.gameObject.tag == "Plateform")
         {
             rigi.AddForce(Vector3.up * jumpPower * Time.deltaTime, ForceMode.Impulse);
-        }    
+        }
+       
     }
 }

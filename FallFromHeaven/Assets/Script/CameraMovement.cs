@@ -9,6 +9,9 @@ public class CameraMovement : MonoBehaviour
 
     public Vector3 Offset;
 
+    private Vector3 Velocity;
+    public float smoothDamp;
+
     public float PositionOffset;
 
     private void Start()
@@ -23,7 +26,7 @@ public class CameraMovement : MonoBehaviour
 
         if(Player.position.y< transform.position.y + PositionOffset)
         {
-            transform.position = TargetPosition;
+            transform.position = TargetPosition = Vector3.SmoothDamp(transform.position, TargetPosition, ref Velocity, smoothDamp);
         }
         
 
