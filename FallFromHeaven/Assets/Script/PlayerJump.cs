@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerJump : MonoBehaviour
 {
@@ -26,6 +27,7 @@ public class PlayerJump : MonoBehaviour
             oneJump = false;
             
         }
+        
     }
 
     private void OnCollisionEnter(Collision collision)
@@ -41,7 +43,14 @@ public class PlayerJump : MonoBehaviour
       
 
     }
-
-   
-    
+    //김은채추가-장애물과 닿으면 플레이어 삭제처리와 씬불러오기
+    void OnTriggerEnter(Collider col)
+    {
+        if (col.gameObject.name == "Enemy")
+        {
+            Destroy(gameObject);
+            SceneManager.LoadScene("ReGame");
+        }
+    }
+  
 }
