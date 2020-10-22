@@ -40,17 +40,16 @@ public class PlayerJump : MonoBehaviour
             oneJump = true ;
             //플레이어가 바닥에 있을때만 점프
         }
-      
-
-    }
-    //김은채추가-장애물과 닿으면 플레이어 삭제처리와 씬불러오기
-    void OnTriggerEnter(Collider col)
-    {
-        if (col.gameObject.name == "Enemy")
+        //김은채추가-장애물과 닿으면 플레이어 삭제처리와 씬불러오기
+        if (collision.gameObject.tag == "Enemy")
         {
             Destroy(gameObject);
             SceneManager.LoadScene("ReGame");
         }
+
+
     }
+  
+
   
 }
