@@ -102,7 +102,7 @@ MonoBehaviour:
   m_MinSize: {x: 811, y: 342}
   m_MaxSize: {x: 22006, y: 10021}
   vertical: 0
-  controlID: 165
+  controlID: 19
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -248,7 +248,7 @@ MonoBehaviour:
   m_MinSize: {x: 303, y: 342}
   m_MaxSize: {x: 8003, y: 8042}
   vertical: 1
-  controlID: 61
+  controlID: 94
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -273,7 +273,7 @@ MonoBehaviour:
   m_MinSize: {x: 303, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
-  controlID: 62
+  controlID: 69
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -351,10 +351,10 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
-    m_HBaseRangeMin: -79.5
-    m_HBaseRangeMax: 79.5
-    m_VBaseRangeMin: -141
-    m_VBaseRangeMax: 141
+    m_HBaseRangeMin: -85
+    m_HBaseRangeMax: 85
+    m_VBaseRangeMin: -151.5
+    m_VBaseRangeMax: 151.5
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -371,11 +371,11 @@ MonoBehaviour:
     m_DrawArea:
       serializedVersion: 2
       x: 0
-      y: 21
+      y: 0
       width: 1447
-      height: 282
+      height: 303
     m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 723.5, y: 141}
+    m_Translation: {x: 723.5, y: 151.5}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
@@ -383,9 +383,9 @@ MonoBehaviour:
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
       x: -723.5
-      y: -141
+      y: -151.5
       width: 1447
-      height: 282
+      height: 303
     m_MinimalGUI: 1
   m_defaultScale: 1
   m_LastWindowPixelSize: {x: 1447, y: 303}
@@ -478,13 +478,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.020243248, y: 0.19106501, z: -0.0027730702, w: 0.9815159}
+    m_Target: {x: -0.6924582, y: 0.2933966, z: 0.37896836, w: 0.53953815}
     speed: 2
-    m_Value: {x: 0.020240247, y: 0.19103669, z: -0.002772659, w: 0.98137033}
+    m_Value: {x: -0.6931633, y: 0.2927839, z: 0.37935168, w: 0.5384187}
   m_Size:
     m_Target: 24.351257
     speed: 2
-    m_Value: 25.4987
+    m_Value: 24.351257
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -694,34 +694,34 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/prefebs
+    - Assets/Script
   m_ViewMode: 1
   m_StartGridSize: 96
   m_LastFolders:
-  - Assets/prefebs
+  - Assets/Script
   m_LastFoldersGridSize: 96
   m_LastProjectPath: C:\Clone\FallFromHeaven\FallFromHeaven
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 6e3c0000
-    m_LastClickedID: 15470
-    m_ExpandedIDs: 000000005a3c00005c3c00005e3c0000603c000000ca9a3b
+    m_SelectedIDs: b8400000
+    m_LastClickedID: 16568
+    m_ExpandedIDs: 00000000a4400000a6400000a8400000aa40000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: Scripts
-      m_OriginalName: Scripts
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 15476
+      m_UserData: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 2}
     m_SearchString: 
@@ -735,7 +735,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000005a3c00005c3c00005e3c0000603c0000
+    m_ExpandedIDs: 00000000a4400000a6400000a8400000aa400000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -858,9 +858,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
+      m_SelectedIDs: 0e360000
       m_LastClickedID: 0
-      m_ExpandedIDs: 98d8feffb2d8feff54d9feff58d9feff72d9feffc810ffffe210ffff8411ffff8811ffffa211ffffd679ffffea79ffffe67bffff007cffffa27cffffa67cffffc07cffffee8effff6491ffff6692ffff8092ffff2293ffff2693ffff4093ffff1096ffff2496ffffb6b2ffffdabdffff28f8ffff5af8ffff96f8fffffef9ffff02faffff22faffff86faffff66fbffff5a5f000072600000888b000088ae000004b2000084ee0000
+      m_ExpandedIDs: c8f6ffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
