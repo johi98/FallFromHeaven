@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Coin : MonoBehaviour
 {
+    public GameObject coin;
     void OnTriggerEnter(Collider col)
     {
         if (col.gameObject.name == "Player")
@@ -12,7 +13,7 @@ public class Coin : MonoBehaviour
             CoinScore ps = score.GetComponent<CoinScore>();
             ps.score++; // 스코어를 1씩 증가시킨다
             ps.textScore.text = "Coins:" + ps.score.ToString(); //textscore에 score 넣어주고 , tostring 문자화한다
-            Destroy(gameObject);
+            Destroy(coin);
         }
     }
 
