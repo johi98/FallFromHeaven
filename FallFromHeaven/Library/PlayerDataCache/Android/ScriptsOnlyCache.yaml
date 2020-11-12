@@ -6,6 +6,7 @@ ScriptsOnlyBuild:
     - CoinScore
     - ColliderS
     - CreateCylinder
+    - Needle_Down
     - PlayerJump
     - ReStart
     - RemoveCylinder
@@ -60,21 +61,21 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11314}
+      Script: {instanceID: 11316}
     - Class: 114
-      Script: {instanceID: 11542}
+      Script: {instanceID: 11544}
     - Class: 114
-      Script: {instanceID: 11594}
+      Script: {instanceID: 11596}
     - Class: 114
-      Script: {instanceID: 12108}
+      Script: {instanceID: 12112}
     - Class: 114
-      Script: {instanceID: 12122}
+      Script: {instanceID: 12126}
     - Class: 114
-      Script: {instanceID: 12626}
+      Script: {instanceID: 12630}
     - Class: 114
-      Script: {instanceID: 13272}
+      Script: {instanceID: 13276}
     - Class: 114
-      Script: {instanceID: 13766}
+      Script: {instanceID: 13770}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -127,45 +128,47 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11314}
+      Script: {instanceID: 11316}
     - Class: 114
-      Script: {instanceID: 11332}
+      Script: {instanceID: 11334}
     - Class: 114
-      Script: {instanceID: 11542}
+      Script: {instanceID: 11544}
     - Class: 114
-      Script: {instanceID: 11646}
+      Script: {instanceID: 11648}
     - Class: 114
-      Script: {instanceID: 11796}
+      Script: {instanceID: 11798}
     - Class: 114
-      Script: {instanceID: 12090}
+      Script: {instanceID: 11840}
     - Class: 114
-      Script: {instanceID: 12108}
+      Script: {instanceID: 12094}
     - Class: 114
-      Script: {instanceID: 12154}
+      Script: {instanceID: 12112}
     - Class: 114
-      Script: {instanceID: 12550}
+      Script: {instanceID: 12158}
     - Class: 114
-      Script: {instanceID: 12932}
+      Script: {instanceID: 12554}
     - Class: 114
-      Script: {instanceID: 12950}
+      Script: {instanceID: 12936}
     - Class: 114
-      Script: {instanceID: 13120}
+      Script: {instanceID: 12954}
     - Class: 114
-      Script: {instanceID: 13220}
+      Script: {instanceID: 13124}
     - Class: 114
-      Script: {instanceID: 13272}
+      Script: {instanceID: 13224}
     - Class: 114
-      Script: {instanceID: 13384}
+      Script: {instanceID: 13276}
     - Class: 114
-      Script: {instanceID: 13490}
+      Script: {instanceID: 13388}
     - Class: 114
-      Script: {instanceID: 13766}
+      Script: {instanceID: 13494}
     - Class: 114
-      Script: {instanceID: 13834}
+      Script: {instanceID: 13770}
     - Class: 114
-      Script: {instanceID: 13836}
+      Script: {instanceID: 13838}
     - Class: 114
-      Script: {instanceID: 74142}
+      Script: {instanceID: 13840}
+    - Class: 114
+      Script: {instanceID: 35456}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -343,6 +346,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: AnimationTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Spin_Hurdle
   - hash:
       serializedVersion: 2
       Hash: cf9f5cf2c3145a37ac07f00e50e460f9
@@ -732,9 +741,9 @@ ScriptsOnlyBuild:
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: Spin_Hurdle
+    className: Needle_Down
   platform: 13
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
   - Assets/Scenes/ReGame.unity
-  playerPath: C:/Clone/FallFromHeaven/FallFromHeaven/Build/FallFromHeaven.apk
+  playerPath: C:/Clone/FallFromHeaven/FallFromHeaven/Build/FallFromHeaven2.apk

@@ -10,4 +10,6 @@ public class Spin_Hurdle : MonoBehaviour
     {
         gameObject.transform.Rotate(new Vector3(0, rotate_speed , 0)*Time.deltaTime);
     }
+
+    
 }
