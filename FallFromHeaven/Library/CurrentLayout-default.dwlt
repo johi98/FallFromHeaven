@@ -60,7 +60,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: ConsoleWindow
+  m_Name: GameView
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
@@ -71,12 +71,12 @@ MonoBehaviour:
     height: 401
   m_MinSize: {x: 101, y: 121}
   m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 22}
+  m_ActualView: {fileID: 13}
   m_Panes:
   - {fileID: 22}
   - {fileID: 13}
-  m_Selected: 0
-  m_LastSelected: 1
+  m_Selected: 1
+  m_LastSelected: 0
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -102,7 +102,7 @@ MonoBehaviour:
   m_MinSize: {x: 811, y: 342}
   m_MaxSize: {x: 22006, y: 10021}
   vertical: 0
-  controlID: 62
+  controlID: 148
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -248,7 +248,7 @@ MonoBehaviour:
   m_MinSize: {x: 303, y: 342}
   m_MaxSize: {x: 8003, y: 8042}
   vertical: 1
-  controlID: 63
+  controlID: 46
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -273,7 +273,7 @@ MonoBehaviour:
   m_MinSize: {x: 303, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
-  controlID: 64
+  controlID: 47
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -363,7 +363,7 @@ MonoBehaviour:
     m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 0
+    m_EnableMouseInput: 1
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
     m_UniformScale: 1
@@ -430,9 +430,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 1.794013, y: 0.2528637, z: -0.46875}
+    m_Target: {x: -20.77262, y: 13.394087, z: 101.734375}
     speed: 2
-    m_Value: {x: 1.794013, y: 0.2528637, z: -0.46875}
+    m_Value: {x: -20.77262, y: 13.394087, z: 101.734375}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -480,11 +480,11 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: 0, y: 0, z: 0, w: 1}
     speed: 2
-    m_Value: {x: 0, y: 0, z: 0, w: 1}
+    m_Value: {x: 0.000000031348677, y: 0.000000029481438, z: -0.00000000812146, w: 1}
   m_Size:
-    m_Target: 29.11454
+    m_Target: 71.17047
     speed: 2
-    m_Value: 27.860804
+    m_Value: 68.10571
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -502,7 +502,7 @@ MonoBehaviour:
     m_FarClip: 10000
     m_DynamicClip: 1
     m_OcclusionCulling: 0
-  m_LastSceneViewRotation: {x: -0.0072061787, y: 0.0070781787, z: -0.0015932062, w: -1.0002484}
+  m_LastSceneViewRotation: {x: 0.2570966, y: 0.241783, z: -0.06660567, w: 0.93327725}
   m_LastSceneViewOrtho: 0
   m_ReplacementShader: {fileID: 0}
   m_ReplacementString: 
@@ -694,34 +694,34 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Script
+    - Assets/Scenes
   m_ViewMode: 1
   m_StartGridSize: 96
   m_LastFolders:
-  - Assets/Script
+  - Assets/Scenes
   m_LastFoldersGridSize: 96
-  m_LastProjectPath: "C:\\Users\\\uAE40\uC740\uCC44\\Desktop\\fish\\FallFromHeaven\\FallFromHeaven"
+  m_LastProjectPath: C:\Users\dongin\Documents\GitHub\FallFromHeaven\FallFromHeaven
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 364e0000
-    m_LastClickedID: 20022
-    m_ExpandedIDs: 000000001c4e00001e4e0000204e0000224e0000244e0000304e00003a4e00008c4e0000f04e0000f24e0000004f0000044f0000064f0000686100004a830000
+    m_SelectedIDs: 2e540000
+    m_LastClickedID: 21550
+    m_ExpandedIDs: 0000000006540000085400000a5400000c5400000e54000010540000125400001454000016540000185400001a5400001c5400001e540000205400002254000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: Materials
-      m_OriginalName: Materials
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 20016
+      m_UserData: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 2}
     m_SearchString: 
@@ -735,7 +735,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000001c4e00001e4e0000204e0000224e0000244e0000
+    m_ExpandedIDs: 0000000006540000085400000a5400000c5400000e54000010540000125400001454000016540000185400001a5400001c5400001e5400002054000022540000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -858,23 +858,23 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
+      m_SelectedIDs: 62540000
       m_LastClickedID: 0
-      m_ExpandedIDs: 4ca2ffff7cb0ffff92b0ffff64c1ffff6ac1ffff76c1ffff1cc3ffff6cc4ffff16d0ffff1cd0ffff1ed0ffff34d4fffffadeffffe0dfffffaee5ffff52ebfffff4eefffff6eefffff8eefffffaeeffffc4f6ffff68fbffff6c5d0000785d00009e600000e86f0000c68e00009a990000a4990000aca20000
+      m_ExpandedIDs: 14caffff66ceffff04cfffff2ccfffff80cfffff2ad6ffff3cdcffffa25a0000805b0000a65b0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: TriggerScore
-        m_OriginalName: TriggerScore
+        m_Name: 
+        m_OriginalName: 
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 41808
+        m_UserData: 0
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 0
+        m_OriginalEventType: 11
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 6}
       m_SearchString: 
