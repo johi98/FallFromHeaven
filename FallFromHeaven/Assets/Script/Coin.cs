@@ -12,7 +12,7 @@ public class Coin : MonoBehaviour
             GameObject score = GameObject.Find("Score"); //스코어 스크립트를 불러온다
             CoinScore ps = score.GetComponent<CoinScore>();
             ps.score++; // 스코어를 1씩 증가시킨다
-            ps.textScore.text = "" + ps.score.ToString(); //textscore에 score 넣어주고 , tostring 문자화한다
+            ps.textScore.text = "Coins:" + ps.score.ToString(); //textscore에 score 넣어주고 , tostring 문자화한다
             Destroy(coin);
         }
     }
