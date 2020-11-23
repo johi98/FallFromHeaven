@@ -6,6 +6,7 @@ using GooglePlayGames;
 using GooglePlayGames.BasicApi;
 using UnityEngine.SocialPlatforms;
 using System.Xml.Serialization;
+using UnityEngine.SceneManagement;
 
 public class GPGSManger : MonoBehaviour
 {
@@ -75,6 +76,11 @@ public class GPGSManger : MonoBehaviour
         Social.ReportScore(12345, "CgkIi5vQyKAGEAIQAg", (bool success) => {
             // handle success or failure
         });
+    }
+
+    public void StartGame()
+    {
+        SceneManager.LoadScene("SampleScene");
     }
 
 
