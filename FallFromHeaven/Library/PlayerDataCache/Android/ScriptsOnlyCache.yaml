@@ -69,31 +69,31 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11306}
+      Script: {instanceID: 11294}
     - Class: 114
-      Script: {instanceID: 11330}
+      Script: {instanceID: 11318}
     - Class: 114
-      Script: {instanceID: 11566}
+      Script: {instanceID: 11604}
     - Class: 114
-      Script: {instanceID: 11636}
+      Script: {instanceID: 12126}
     - Class: 114
-      Script: {instanceID: 12202}
+      Script: {instanceID: 12140}
     - Class: 114
-      Script: {instanceID: 12218}
+      Script: {instanceID: 12174}
     - Class: 114
-      Script: {instanceID: 12256}
+      Script: {instanceID: 12970}
     - Class: 114
-      Script: {instanceID: 13108}
+      Script: {instanceID: 12990}
     - Class: 114
-      Script: {instanceID: 13130}
+      Script: {instanceID: 13330}
     - Class: 114
-      Script: {instanceID: 13482}
+      Script: {instanceID: 13566}
     - Class: 114
       Script: {instanceID: 13722}
     - Class: 114
-      Script: {instanceID: 13886}
+      Script: {instanceID: 13852}
     - Class: 114
-      Script: {instanceID: 14022}
+      Script: {instanceID: 21242}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -130,21 +130,21 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11306}
+      Script: {instanceID: 11294}
     - Class: 114
-      Script: {instanceID: 11330}
+      Script: {instanceID: 11318}
     - Class: 114
-      Script: {instanceID: 11594}
+      Script: {instanceID: 11566}
     - Class: 114
-      Script: {instanceID: 11636}
+      Script: {instanceID: 11604}
     - Class: 114
-      Script: {instanceID: 12202}
+      Script: {instanceID: 12126}
     - Class: 114
-      Script: {instanceID: 12218}
+      Script: {instanceID: 12140}
     - Class: 114
-      Script: {instanceID: 13482}
+      Script: {instanceID: 13330}
     - Class: 114
-      Script: {instanceID: 14022}
+      Script: {instanceID: 13852}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -195,49 +195,49 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11306}
+      Script: {instanceID: 11294}
     - Class: 114
-      Script: {instanceID: 11330}
+      Script: {instanceID: 11318}
     - Class: 114
-      Script: {instanceID: 11350}
+      Script: {instanceID: 11336}
     - Class: 114
-      Script: {instanceID: 11560}
+      Script: {instanceID: 11534}
     - Class: 114
-      Script: {instanceID: 11576}
+      Script: {instanceID: 11548}
     - Class: 114
-      Script: {instanceID: 11636}
+      Script: {instanceID: 11604}
     - Class: 114
-      Script: {instanceID: 11692}
+      Script: {instanceID: 11656}
     - Class: 114
-      Script: {instanceID: 11852}
+      Script: {instanceID: 11804}
     - Class: 114
-      Script: {instanceID: 11856}
+      Script: {instanceID: 11808}
     - Class: 114
-      Script: {instanceID: 11900}
+      Script: {instanceID: 11850}
     - Class: 114
-      Script: {instanceID: 12180}
+      Script: {instanceID: 12106}
     - Class: 114
-      Script: {instanceID: 12202}
+      Script: {instanceID: 12126}
     - Class: 114
-      Script: {instanceID: 12702}
+      Script: {instanceID: 12578}
     - Class: 114
-      Script: {instanceID: 13092}
+      Script: {instanceID: 12954}
     - Class: 114
-      Script: {instanceID: 13316}
+      Script: {instanceID: 13170}
     - Class: 114
-      Script: {instanceID: 13426}
+      Script: {instanceID: 13276}
     - Class: 114
-      Script: {instanceID: 13482}
+      Script: {instanceID: 13330}
     - Class: 114
-      Script: {instanceID: 13510}
+      Script: {instanceID: 13358}
     - Class: 114
-      Script: {instanceID: 13606}
+      Script: {instanceID: 13454}
     - Class: 114
-      Script: {instanceID: 14022}
+      Script: {instanceID: 13852}
     - Class: 114
-      Script: {instanceID: 14094}
+      Script: {instanceID: 13920}
     - Class: 114
-      Script: {instanceID: 14096}
+      Script: {instanceID: 13922}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -333,12 +333,6 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: PauseMenuExample
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: GPGSManager
   - hash:
       serializedVersion: 2
       Hash: aeb62f729c52c814dec86c47dcac1471
@@ -725,12 +719,6 @@ ScriptsOnlyBuild:
     className: TMP_FontAsset
   - hash:
       serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: GooglePlayGames.OurUtils
-    className: NearbyHelperObject
-  - hash:
-      serializedVersion: 2
       Hash: fe1fdeffc2067077b2f1a90b210c2532
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
@@ -931,12 +919,6 @@ ScriptsOnlyBuild:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Assembly-CSharp.dll
-    namespaceName: GooglePlayGames.OurUtils
-    className: PlayGamesHelperObject
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
     namespaceName: TMPro.Examples
     className: TeleType
   - hash:
@@ -1065,6 +1047,24 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GooglePlayGames.OurUtils
+    className: NearbyHelperObject
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GooglePlayGames.OurUtils
+    className: PlayGamesHelperObject
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: GPGSManager
   platform: 13
   scenePathNames:
   - Assets/Scenes/Main.unity
