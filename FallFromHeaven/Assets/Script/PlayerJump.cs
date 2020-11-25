@@ -10,6 +10,7 @@ public class PlayerJump : MonoBehaviour
     public float distToGround = 2;
     public float jumpPower = 2;
     private bool oneJump = false;
+    public GameObject EndPannel;
 
 
     // Start is called before the first frame update
@@ -29,7 +30,7 @@ public class PlayerJump : MonoBehaviour
         }
         
     }
-
+   
     private void OnCollisionEnter(Collision collision)
     {
       
@@ -40,14 +41,18 @@ public class PlayerJump : MonoBehaviour
             oneJump = true ;
             //플레이어가 바닥에 있을때만 점프
         }
-        //김은채추가-장애물과 닿으면 플레이어 삭제처리와 씬불러오기
+        //장애물과 닿으면 플레이어 삭제처리와 판넬불러오기
+    
         if (collision.gameObject.tag == "Enemy")
         {
-            Destroy(gameObject);
-            SceneManager.LoadScene("ReGame");
+           // Destroy(gameObject);
+            gameObject.SetActive(false);
+            EndPannel.SetActive(true);
+        
+      
         }
 
-
+        
     }
   
 
