@@ -11,12 +11,13 @@ public class PlayerJump : MonoBehaviour
     public float jumpPower = 2;
     private bool oneJump = false;
     public GameObject EndPannel;
-
+    AdsManager adsManager;
 
     // Start is called before the first frame update
     void Start()
     {
       rigi =   gameObject.GetComponent<Rigidbody>();//플레이어의 RIGIDBODY를 받아옴
+      adsManager = new AdsManager();
     }
 
     // Update is called once per frame
@@ -45,10 +46,11 @@ public class PlayerJump : MonoBehaviour
     
         if (collision.gameObject.tag == "Enemy")
         {
-           // Destroy(gameObject);
+            // Destroy(gameObject);
+            adsManager.ShowInterstitialAd();
             gameObject.SetActive(false);
             EndPannel.SetActive(true);
-        
+            
       
         }
 

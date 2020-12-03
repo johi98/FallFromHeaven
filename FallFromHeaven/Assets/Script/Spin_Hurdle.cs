@@ -18,8 +18,8 @@ public class Spin_Hurdle : MonoBehaviour
     }
     void Update()
     {
-        gameObject.transform.Rotate(new Vector3(0, rotate_speed *random_Rotate, 0)*Time.deltaTime);
+        gameObject.transform.Rotate(new Vector3(0, rotate_speed * random_Rotate, 0) * Time.deltaTime);
     }
 
-    
+
 }
