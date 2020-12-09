@@ -24,8 +24,10 @@
 
 public static class GPGSIds
 {
-        public const string leaderboard_fallfromheaven = "CgkIi5vQyKAGEAIQAg"; // <GPGSID>
         public const string achievement_100 = "CgkIi5vQyKAGEAIQAQ"; // <GPGSID>
+        public const string leaderboard_fallfromheaven = "CgkIi5vQyKAGEAIQAg"; // <GPGSID>
+        public const string achievement_40 = "CgkIi5vQyKAGEAIQBA"; // <GPGSID>
+        public const string achievement_20 = "CgkIi5vQyKAGEAIQAw"; // <GPGSID>
 
 }
 
