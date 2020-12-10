@@ -25,11 +25,11 @@ public class EndPanelManager : MonoBehaviour
             
         }
        BestScore.text = GameManager.bestScore.ToString();
-       if (GameManager.score >=3)
+       if (GameManager.score >=20)
         {
             medal.GetComponent<Image>().sprite = Green_S;
         }
-       else if (GameManager.score >= 2)
+       else if (GameManager.score >= 40)
         {
             medal.GetComponent<Image>().sprite = Purple_S;
         }
