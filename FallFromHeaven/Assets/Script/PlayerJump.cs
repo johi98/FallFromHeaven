@@ -36,11 +36,17 @@ public class PlayerJump : MonoBehaviour
     {
       
         if (collision.gameObject.tag == "Plateform"&&oneJump == false)
-        {   //플레이어가 닿은 오브젝트의 tag가 Plateform이고 점프를 하지 않았다면 
-            rigi.AddForce(Vector3.up * jumpPower * Time.deltaTime, ForceMode.Impulse);
-            //플레이어에게 수직으로 힘을 주며 deltaTime을 통해 플레이어가 받는 힘을 정규화 시켜줌
-            oneJump = true ;
-            //플레이어가 바닥에 있을때만 점프
+        {  
+            if (RaySet(Vector3.left) == false && RaySet(Vector3.right) == false)
+            {   
+                //플레이어가 닿은 오브젝트의 tag가 Plateform이고 점프를 하지 않았다면 
+                rigi.AddForce(Vector3.up * jumpPower * Time.deltaTime, ForceMode.Impulse);
+                //플레이어에게 수직으로 힘을 주며 deltaTime을 통해 플레이어가 받는 힘을 정규화 시켜줌
+                oneJump = true;
+                //플레이어가 바닥에 있을때만 점프
+
+            }
+
         }
         //장애물과 닿으면 플레이어 삭제처리와 판넬불러오기
     
@@ -55,6 +61,11 @@ public class PlayerJump : MonoBehaviour
         }
 
         
+    }
+
+    public bool RaySet(Vector3 v)
+    {
+       return Physics.Raycast(gameObject.transform.position, v, distToGround);
     }
   
 

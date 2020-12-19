@@ -15,6 +15,7 @@ ScriptsOnlyBuild:
     - RemoveCylinder
     - Rotator
     - ScoreUpdateDetect
+    - Sound_Toggle
     - Spin_Hurdle
     - Spin_UpDown_hurdle
     - SumPause
@@ -38,6 +39,9 @@ ScriptsOnlyBuild:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
     - UnityEditor.TestTools.TestRunner.TestRun.TestJobDataHolder
+    UnityEngine.Advertisements.dll:
+    - UnityEngine.Advertisements.Placeholder
+    - UnityEngine.Advertisements.Platform.Editor.BannerPlaceholder
     UnityEngine.UI.dll:
     - UnityEngine.EventSystems.EventSystem
     - UnityEngine.EventSystems.StandaloneInputModule
@@ -46,6 +50,7 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.GraphicRaycaster
     - UnityEngine.UI.Image
     - UnityEngine.UI.Text
+    - UnityEngine.UI.Toggle
   sceneClasses:
     Assets/Scenes/Main.unity:
     - Class: 1
@@ -139,6 +144,10 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
     - Class: 89
       Script: {instanceID: 0}
     - Class: 104
@@ -190,7 +199,11 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 14428}
     - Class: 114
+      Script: {instanceID: 14452}
+    - Class: 114
       Script: {instanceID: 14512}
+    - Class: 114
+      Script: {instanceID: 39092}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1048,8 +1061,14 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
+  - hash:
+      serializedVersion: 2
+      Hash: b66986871a5c8e45a97e5ffccf99d03b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Sound_Toggle
   platform: 13
   scenePathNames:
   - Assets/Scenes/Main.unity
   - Assets/Scenes/SampleScene.unity
-  playerPath: C:/Clone/FallFromHeaven/FallFromHeaven/Build/FallFromHeaven1210v4.apk
+  playerPath: C:/Clone/FallFromHeaven/FallFromHeaven/Build/FallFromHeaven1219v3.apk
